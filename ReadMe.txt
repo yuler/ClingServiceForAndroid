@@ -1,13 +1,12 @@
-ÊÖ»ú¿ØÖÆTV¶Ë    	TV¶Ëservice Demo
-ÎÊÌâ×Ü½á
-1.¼üÖµÊÊÅä  
+æ‰‹æœºæ§åˆ¶TVç«¯    	TVç«¯service Demo
+é—®é¢˜æ€»ç»“
+1.é”®å€¼é€‚é…  
 new Instrumentation().sendKeyDownUpSync(code);
-Ê¹ÏµÍ³½øĞĞ´¦Àí
+ä½¿ç³»ç»Ÿè¿›è¡Œå¤„ç†
 
-2.Á¬Ğø°´Í¬Ò»°´¼ü£¬Ö»Ö´ĞĞÒ»´Î
-´¦Àí£ºSwitchPower setTarget£¨£©ÖĞ                String targetOldValue = target;
-Ã¿´Î¸ü¸ÄÈç         String targetOldValue = "NO";
+2.è¿ç»­æŒ‰åŒä¸€æŒ‰é”®ï¼Œåªæ‰§è¡Œä¸€æ¬¡
+å¤„ç†ï¼šSwitchPower setTargetï¼ˆï¼‰ä¸­                String targetOldValue = target;
+æ¯æ¬¡æ›´æ”¹å¦‚         String targetOldValue = "NO";
 
-Activity propertyChange()ÖĞ
-arg0.getPropertyName()·Ö±ğÎªtarget£¬status£¬_EventedStateVariables£¬Status
-
+Activity propertyChange()ä¸­
+arg0.getPropertyName()åˆ†åˆ«ä¸ºtargetï¼Œstatusï¼Œ_EventedStateVariablesï¼ŒStatus
